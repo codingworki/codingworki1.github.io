@@ -1,0 +1,561 @@
+body {
+background: url(2937485-cityscape-city-architecture-building-skyscraper-manhattan-new-york-city-usa-bay-statue-of-liberty-island-selective-coloring-sea___landscape-nature-wallpapers.jpg);
+background-attachment: fixed;
+   overflow-x: hidden;
+}
+
+
+.header_link:hover  {
+   color: white;
+     text-decoration:none;
+}
+a:active  {
+   color: white;
+     text-decoration:none;
+}
+a:visited  {
+   color: white;
+     text-decoration:none;
+}
+a:hover  {
+   color: white;
+     text-decoration:none;
+}
+.header_link {
+    display: inline-block;
+    color: black;
+    line-height: 1.5;
+    text-decoration:none;
+    cursor: pointer;
+    
+}
+.header_link:after {
+    background-color: #f7f7f7;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.header_link:hover:after,
+.header_link:focus:after {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 20px; 
+}
+.header_list{
+    margin-left: 80px;
+}
+.header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    
+}
+
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.header_body {
+    position: relative;
+  
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.header_list li {
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+}
+.header_list {
+    display: flex;
+    z-index: 2;
+    
+}
+.logo {
+    font-family: 'Rowdies', cursive;
+    color: #f7f7f7;
+    text-transform: ;
+    font-size: 30px;
+    text-decoration: none;
+   padding-top: 60px;
+    margin: 50px;
+}
+.header_link {
+    font-family: 'Rowdies', cursive;
+    color: #f7f7f7;
+    text-transform: ;
+    font-size: 23px;
+    text-decoration: none;
+   padding-top: 120px;
+    margin: 20px;
+    
+}
+
+.header_logo img {
+    max-width: 100%;
+    display: block;
+    
+    padding-top: 145px;
+}
+.header_logo {
+   flex: 0 0 60px; 
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 3;
+    
+}
+.header_burger{
+    display: none;
+}
+
+}
+
+@media (max-width:1140px){
+    .header_body {
+        height: 40px;
+        margin-left: 0px;
+    }
+    .header_list{
+        margin-left: 0px;
+        margin-right: 20px;
+       
+    }
+    .header_link {
+         font-size: 15px;
+        margin: 5px;
+        margin-left: 0px;
+    }
+    .logo {
+         font-size: 20px;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    
+}
+.transparent {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 70px;
+    text-transform: uppercase;
+    background-color: #383e56;
+    color: #FFF;
+    mix-blend-mode: multiply;
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 180px;
+    margin-left: 70px;
+    
+}
+
+h5 {
+    margin-left: 100px;
+    background-color: #383e56;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    background-color: #383e56;
+    color: #FFF;
+    mix-blend-mode: multiply;
+    padding: 0px 20px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+.text_coffee{
+    
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase;
+    background-color: #42240c;
+    color: #FFF;
+    mix-blend-mode: multiply;
+    padding: 0px 20px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.fotka {
+    
+    padding-left: 230px;
+    padding-right: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+img {
+   border-radius: 20px; 
+}
+.screen1 {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+   overflow-x: hidden;
+}
+.screen2 {
+    background-color: whitesmoke;
+    height: 100%;
+   width: 100%;
+    overflow-x: hidden;
+}
+.dosto {
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    color: #1b262c;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+.dosto1 {
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    color: #1b262c;
+     padding-bottom: 10px;
+}
+.usa {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    
+}
+.usa1 {
+ padding-bottom: 6px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.fotka_att {
+    width: 200px;
+}
+.box1 {
+     box-shadow: 0px 0px 20px 0px;
+    margin-bottom: 0px;
+}
+.box {
+     box-shadow: 0px 0px 20px 0px;
+  
+}
+.box2 {
+     box-shadow: 0px 0px 20px 0px;
+  
+}
+.box3 {
+     box-shadow: 0px 0px 20px 0px;
+  
+}
+.facts_title {
+    font-family: 'Rowdies', cursive;
+    color: #1b262c;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 25px;
+    
+}
+.facts_title1 {
+    font-family: 'Rowdies', cursive;
+    color: #1b262c;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 25px;
+}
+
+.button {
+     margin-bottom: 10px;
+    background-color: grey;
+    border: 0px;
+    font-family: 'Rowdies', cursive;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+
+.screen_footer {
+  width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+     background-color: #393e46;
+    font-family: 'Rowdies', cursive;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    
+}
+.p {
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.box_facts {
+    box-shadow: 0px 0px 20px 0px;
+    text-align: center;
+    margin-left: 230px;
+}
+.box_facts1 {
+    box-shadow: 0px 0px 20px 0px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 230px;
+}
+.fotka_facts {
+    padding-top: 10px;
+    width:250px;
+}
+.population_text{
+    color: #1b262c;
+    text-align: center;
+   font-family: 'Red Rose', cursive;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.population_text1{
+    color: #1b262c;
+    text-align: center;
+ font-family: 'Red Rose', cursive;
+    margin-top: 30px;
+     margin-left: 10px;
+    margin-bottom: 0px;
+}
+.population_text2{
+    font-family: 'Red Rose', cursive;
+    color: #1b262c;
+    text-align: center;
+    margin-top: 30px;
+     margin-right: 15px;
+    margin-bottom: 30px;
+}
+.population_title{
+    text-decoration: ;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+.population_img1 {
+    margin-top: 10px;
+width: 260px;
+    height: 150px;
+     margin-left: 170px;
+}
+.population_img2 {
+    margin-top: 10px;
+    width: 350px;
+    margin-left: 115px;
+}
+.population_img3 {
+    margin-top: 10px;
+    width: 260px;
+    height: 150px;
+     margin-left: 150px;
+}
+.box_population {
+    box-shadow: 0px 0px 20px 0px;
+    margin-bottom: 30px;
+}
+.photo_att {
+    margin-right: 200px;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+@media (max-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    .container{
+        max-width: none;
+    }
+}
+
+@media (max-width: 1560px){
+    .container {
+        width: 100%;
+    }
+    .container-fluid {
+        width: 100%;
+    }
+    .header_body {
+        height: 50px;
+        margin-left: 0px;
+    }
+    .header_list{
+        margin-left: 0px;
+        margin-right: 20px;
+       
+    }
+    .header_link {
+         font-size: 15px;
+        margin: 10px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .logo {
+         font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+ 
+    h5 {
+    margin-left: 100px;
+    background-color: #383e56;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    background-color: #383e56;
+    color: #FFF;
+    mix-blend-mode: multiply;
+    padding: 0px 20px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+    .screen {
+         width 100%;
+        margin: 0%;
+        
+       
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .screen2 {
+         width 100%;
+        margin: 0%;
+        
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .transparent {
+         width 100%;
+        margin: 0%;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 120px;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 50px;
+    }
+    h5 {
+         width 100%;
+        margin: 0%;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: left;
+        box-sizing: border-box;
+    }
+    .dosto {
+        width 100%;
+        margin: 0%;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .box {
+        width 100%;
+        margin: 0%;
+        margin-right: 230px;
+        margin-left: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .box1 {
+        width 100%;
+        margin: 0%;
+        margin-right: 230px;
+        margin-left: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .box_facts {
+        width 100%;
+        margin: 0%;
+        margin-right: 200px;
+        margin-left: 140px;
+        margin-bottom: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .box_facts1 {
+        width 100%;
+        margin: 0%;
+        margin-right: 200px;
+        margin-left: 140px;
+        margin-bottom: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .dosto1 {
+        width 100%;
+        margin: 0%;
+        
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .usa {
+        width 100%;
+        margin: 0%;
+       
+        
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .usa1 {
+        width 100%;
+        margin: 0%;
+        
+        
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .button {
+        text-align: center;
+        margin-right: 90px;
+    }
+}
+    
